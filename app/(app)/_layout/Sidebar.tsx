@@ -49,9 +49,9 @@ type NavigationElement = {
 const flockstrEvent = {
   created_at: 1697736945,
   content:
-    "Officially announcing Flockstr. Check it out at https://flockstr.com",
+    "Officially announcing calendar.protest.net. Check it out at https://calendar.protest.net",
   tags: [
-    ["r", "https://flockstr.com"],
+    ["r", "https://calendar.protest.net"],
     ["client", "flockstr"],
   ],
   kind: 1,
@@ -82,23 +82,15 @@ export default function Sidebar() {
       active: true,
     },
     {
-      href: "",
-      name: "messages",
-      label: "Messages",
-      icon: RiQuestionAnswerLine,
-      type: "link",
-      active: false,
-    },
-    {
       onClick: () =>
         modal?.show(
           <ZapPickerModal
-            title="Help Support Flockstr!"
+            title="Help Support protest.net!"
             event={flockstrEvent}
           />,
         ),
       name: "zap",
-      label: "Zap Flockstr",
+      label: "Zap Protest.Net",
       icon: HiOutlineLightningBolt,
       type: "button",
       active: true,

@@ -9,8 +9,8 @@ const interTight = Inter_Tight({
   subsets: ["latin"],
   variable: "--font-inter-tight",
 });
-const title = "Flockstr";
-const description = "Own your flock";
+const title = "protest.net";
+const description = "Activist Events Calendars";
 const image =
   "https://o-0-o-image-storage.s3.amazonaws.com/zachmeyer_a_cartoon_image_of_an_ostrich_wearing_sunglasses_at_a_e68ac83e-a3b8-4d81-9550-a1fb7ee1ee62.png";
 
@@ -33,7 +33,7 @@ export const metadata: Metadata = {
     images: [image],
     creator: "@zachmeyer_",
   },
-  metadataBase: new URL("https://flockstr.com"),
+  metadataBase: new URL("https://calendar.protest.net"),
   viewport:
     "minimum-scale=1, initial-scale=1, width=device-width, shrink-to-fit=no, viewport-fit=cover",
   manifest: "/manifest.json",

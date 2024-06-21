@@ -20,11 +20,10 @@ export default function BecomeACreator() {
         />
         <div className="max-sm:px-5 md:self-start lg:max-w-lg lg:self-center">
           <h2 className="font-condensed text-2xl font-bold text-foreground sm:text-3xl">
-            Create Events on Protest.net Using Nostr
+            Create Events on Protest.Net using Nostr
           </h2>
           <div className="mb-6 mt-2 text-muted-foreground">
-            Start organizing your events an calendar on directly on protest.net.
-            
+            Start organizing your events an calendar on directly on protest.net using Nostr.
           </div>
           <Button onClick={() => modal?.show(<CreateCalendarEvent />)}>
             Create an Event

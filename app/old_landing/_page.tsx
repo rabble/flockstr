@@ -81,7 +81,7 @@ export default function LandingPage() {
           <div className="flex w-full flex-1 rounded-[35px] bg-primary p-6 @container">
             <div className="flex flex-col gap-y-6 text-center">
               <span className="uppercase tracking-wider text-primary-foreground/80">
-                Why Bitcoin?
+                Why Nostr?
               </span>
               <div className="font-condensed space-y-4 font-medium">
                 <p className="text-base text-zinc-800">
