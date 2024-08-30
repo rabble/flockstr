@@ -75,8 +75,8 @@ export default function NDKInstance(explicitRelayUrls: string[]) {
       cacheAdapter: dexieAdapter as unknown as NDKCacheAdapter,
     });
     if (process.env.NODE_ENV === "development") {
-      ndkInstance.pool.on("connect", () => console.log("✅ connected"));
-      ndkInstance.pool.on("disconnect", () => console.log("❌ disconnected"));
+      ndkInstance.pool.on("relay:connect", () => console.log("✅ connected"));
+      ndkInstance.pool.on("relay:disconnect", () => console.log("❌ disconnected"));
     }
 
     if (signer) {
